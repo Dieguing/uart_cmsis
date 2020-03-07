@@ -9,7 +9,9 @@ int main() {
 		/* Turn on the LED */
 		LED_ON();
 		_delay();
+		_delay();
 		LED_OFF();
+		_delay();
 		_delay();
 	}
 }
