@@ -21,6 +21,7 @@ void SystemConfig(){
 	/* Enable the clock of System Configurator Controller */
 	/*This setting is very important for correct working of EXTI*/
 	RCC->APB2ENR |= RCC_APB2ENR_SYSCFGEN;
+	
   /* (1) PC13 as source input on register EXTICR4*/
   /* (2) Unmask port 13 */
   /* (3) Falling edge */
