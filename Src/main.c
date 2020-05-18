@@ -15,7 +15,9 @@ int main() {
 	SystemConfig();
 
 	while(1){
-// UART manually		
+		
+//#### UART manually	########	
+		
 //		USART2->TDR = 'x';
 //		while((USART2->ISR & USART_ISR_TC) != USART_ISR_TC);
 //		USART2->ICR = USART_ICR_TCCF;
