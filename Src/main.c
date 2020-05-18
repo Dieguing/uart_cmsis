@@ -2,7 +2,7 @@
 #include "stm32l0xx.h"
 
 uint8_t send = 0;
-uint8_t stringtosend[3] = "ok\n";
+uint8_t stringtosend[5] = "beta\n";
 
 int main() {
 	/*	At this stage the microcontroller clock setting is already configured, 
@@ -14,7 +14,8 @@ int main() {
 	SystemConfig();
 
 	while(1){
-// UART manually		
+		
+//======  UART manually	=========	
 //		USART2->TDR = 'x';
 //		while((USART2->ISR & USART_ISR_TC) != USART_ISR_TC);
 //		USART2->ICR = USART_ICR_TCCF;
