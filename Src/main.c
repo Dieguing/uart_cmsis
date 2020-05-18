@@ -4,6 +4,7 @@
 uint8_t send = 0;
 uint8_t stringtosend[5] = "beta\n";
 
+
 int main() {
 	/*	At this stage the microcontroller clock setting is already configured, 
       this is done through SystemInit() function which is called from startup
@@ -14,7 +15,7 @@ int main() {
 	SystemConfig();
 
 	while(1){
-		
+// UART manually		
 //		USART2->TDR = 'x';
 //		while((USART2->ISR & USART_ISR_TC) != USART_ISR_TC);
 //		USART2->ICR = USART_ICR_TCCF;
