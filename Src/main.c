@@ -2,7 +2,7 @@
 #include "stm32l0xx.h"
 
 uint8_t send = 0;
-uint8_t stringtosend[3] = "OK\n";
+uint8_t stringtosend[5] = "beta\n";
 
 int main() {
 	/*	At this stage the microcontroller clock setting is already configured, 
